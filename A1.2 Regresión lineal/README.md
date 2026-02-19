@@ -1,19 +1,17 @@
-# Análisis de datos y Aprendizaje automático en Salud y Bienestar.
+# Las características que definen el nivel de felicidad.
 
-Este repositorio contiene una serie de estudios estadísticos y modelos predictivos enfocados en la salud pública y el bienestar social, específicamente sobre los niveles de **obesidad** en Latinoamérica y los factores que definen la **felicidad** a nivel mundial.
+Este repositorio contiene un reporte técnico detallado sobre los niveles de felicidad en diversos países del mundo. El estudio se centra en identificar cómo influyen los factores socioeconómicos en el bienestar percibido mediante la implementación de modelos predictivos de regresión.
 
-El proyecto utiliza técnicas de aprendizaje estadístico y automático para identificar variables determinantes en la salud y calidad de vida, basándose en datos recolectados por instituciones académicas y organismos internacionales.
+El proyecto utiliza técnicas de aprendizaje estadístico y automático para identificar variables determinantes en la calidad de vida global, basándose en datos recolectados por el **World Happiness Report**.
 
-## Estructura del Repositorio.
+## Estructura del repositorio.
 
-* **[Actividad 1.1: Aprendizaje Estadístico-Automático (Obesidad)](./A1.1_Aprendizaje_Estadistico/)**: Análisis exploratorio, limpieza de datos y pruebas de correlación sobre el conjunto de datos de obesidad.
-    * `Obesidad.ipynb`: Notebook principal con el código y reporte técnico.
-    * `Obesidad.html`: Reporte en formato HTML.
-    * `A1.1_Obesidad.csv`: Base de datos utilizada.
-
-* **[Actividad 1.2: Modelos de Regresión (Felicidad)](./A1.2_Modelos_Regresion/)**: Implementación de regresión lineal simple y múltiple para predecir niveles de felicidad.
-    * `Felicidad.ipynb`: Notebook con el análisis de regresión.
+* **[Actividad 1.2: Modelos de Regresión](./A1.2_Modelos_Regresion/)**: Implementación de regresión lineal simple y múltiple para predecir niveles de felicidad.
+    * `Felicidad.ipynb`: Notebook principal con el código, análisis y modelos de regresión.
+    * `Felicidad.html`: Reporte en formato HTML para visualización web.
+    * `World_Happiness_Report.csv`: Base de datos utilizada para el entrenamiento de los modelos.
 
 ## Autor.
+
 * **Estefania Nájera de la Rosa** - [estefania.najera@udem.edu](mailto:estefania.najera@udem.edu)
 * **Fecha**: 26 de enero del 2026
