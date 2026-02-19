@@ -17,10 +17,11 @@ Se aplican técnicas de limpieza, transformación de variables categóricas y an
 * **Variable independiente principal**: `Peso` (Identificada mediante análisis de correlación con un valor de 0.387).
 
 ## Índice de archivos.
+* `A1.1_Obesidad.csv`: Archivo de datos fuente.
+* `Obesidad.csv`: Reporte en formato web.
 * `Obesidad.ipynb`: Contiene el flujo completo de trabajo:
     1. Introducción y Objetivos.
     2. Exploración Estadística.
     3. Definición de Variables.
     4. Metodología y Limpieza de Datos (Label Encoding).
     5. Visualización (Histogramas).
-* `A1.1_Obesidad.csv`: Archivo de datos fuente.
