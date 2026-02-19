@@ -27,3 +27,4 @@ Esta actividad consiste en un reporte técnico de los niveles de felicidad de di
     4. Análisis de regresión simple.
     5. Análisis de regresión múltiple.
     6. Conclusiones y referencias.
+ * **WHR22_Data_Figure_2.1.xlsx**: Datos extras obtenidos por The World Happiness Report.
