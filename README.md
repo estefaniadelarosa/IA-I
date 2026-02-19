@@ -1,2 +1,2 @@
 # IA-I
-Trabajos: Inteligencia Artificial PR2026
+Repositiorio de actividades de la materia de Inteligencia Artificial en PR2026.
