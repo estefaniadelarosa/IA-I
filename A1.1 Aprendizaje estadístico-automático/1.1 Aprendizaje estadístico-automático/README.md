@@ -18,7 +18,7 @@ Se aplican técnicas de limpieza, transformación de variables categóricas y an
 
 ## Índice de archivos.
 * `A1.1_Obesidad.csv`: Archivo de datos fuente.
-* `Obesidad.csv`: Reporte en formato web.
+* `Obesidad.html`: Reporte en formato web.
 * `Obesidad.ipynb`: Contiene el flujo completo de trabajo:
     1. Introducción y Objetivos.
     2. Exploración Estadística.
