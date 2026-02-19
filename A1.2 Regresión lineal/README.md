@@ -4,7 +4,7 @@ Este repositorio contiene una serie de estudios estadísticos y modelos predicti
 
 El proyecto utiliza técnicas de aprendizaje estadístico y automático para identificar variables determinantes en la salud y calidad de vida, basándose en datos recolectados por instituciones académicas y organismos internacionales.
 
-## Estructura del Repositorio
+## Estructura del Repositorio.
 
 * **[Actividad 1.1: Aprendizaje Estadístico-Automático (Obesidad)](./A1.1_Aprendizaje_Estadistico/)**: Análisis exploratorio, limpieza de datos y pruebas de correlación sobre el conjunto de datos de obesidad.
     * `Obesidad.ipynb`: Notebook principal con el código y reporte técnico.
@@ -14,6 +14,6 @@ El proyecto utiliza técnicas de aprendizaje estadístico y automático para ide
 * **[Actividad 1.2: Modelos de Regresión (Felicidad)](./A1.2_Modelos_Regresion/)**: Implementación de regresión lineal simple y múltiple para predecir niveles de felicidad.
     * `Felicidad.ipynb`: Notebook con el análisis de regresión.
 
-## Autor
+## Autor.
 * **Estefania Nájera de la Rosa** - [estefania.najera@udem.edu](mailto:estefania.najera@udem.edu)
 * **Fecha**: 26 de enero del 2026
