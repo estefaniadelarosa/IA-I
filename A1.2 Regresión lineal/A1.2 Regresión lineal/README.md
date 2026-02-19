@@ -19,7 +19,7 @@ Esta actividad consiste en un reporte técnico de los niveles de felicidad de di
 
 ## Índice de archivos.
 * **World_Happiness_Report.csv**: Archivo de datos fuente.
-* **Felicidad.html**: Reporte técnico exportado en formato web para su visualización.
+* **Felicidad.html**: Reporte en formato web.
 * **Felicidad.ipynb**: Contiene el flujo completo de trabajo:
     1. Importación de las librerías.
     2. Carga de datos.
