@@ -1,28 +1,22 @@
-# Actividad 1.2: Las características que definen el nivel de felicidad.
+# Análisis de Datos: Salud y Bienestar Mundial.
 
-## Descripción de la actividad.
-Esta actividad consiste en un reporte técnico que analiza los niveles de felicidad en diversos países. Se implementan modelos de regresión para predecir el bienestar basado en factores socioeconómicos, evaluando la precisión y la relación entre variables mediante gráficas de dispersión y líneas de tendencia.
+Este repositorio contiene una serie de estudios estadísticos y modelos predictivos enfocados en la salud pública y el bienestar social, analizando desde los niveles de **obesidad** en Latinoamérica hasta los factores que definen la **felicidad** a nivel global.
 
-## Base de datos.
-* **Origen**: Los datos provienen del **World Happiness Report**.
-* **Fuente**: [Data sharing | The World Happiness Report](https://www.worldhappiness.report/data-sharing/)
+El proyecto utiliza técnicas de aprendizaje estadístico y modelos de regresión para identificar variables determinantes en la calidad de vida, basándose en datos de instituciones académicas y reportes internacionales.
 
-## Variables del proyecto.
+## Estructura del repositorio.
 
-### Variable Dependiente (Target):
-* **`Life Ladder` (o Score de Felicidad)**: Es la medida del nivel de felicidad percibida por los habitantes de cada país.
+* **[Actividad 1.1: Aprendizaje Estadístico-Automático](./A1.1_Aprendizaje_Estadistico/)**: Análisis exploratorio, limpieza de datos y pruebas de correlación sobre el conjunto de datos de obesidad.
+    * `Obesidad.ipynb`: Notebook principal con el código y reporte técnico.
+    * `Obesidad.html`: Reporte en formato HTML.
+    * `A1.1_Obesidad.csv`: Base de datos utilizada.
 
-### Variables Independientes (Predictoras):
-1.  **`Log GDP per capita`**: El nivel de riqueza económica por persona (en escala logarítmica).
-2.  **`Social support`**: El respaldo social percibido (tener a alguien con quien contar).
-3.  **`Healthy life expectancy at birth`**: La esperanza de años de vida con buena salud.
-4.  **`Freedom to make life choices`**: La libertad percibida para tomar decisiones de vida.
+* **[Actividad 1.2: Modelos de Regresión](./A1.2_Modelos_Regresion/)**: Implementación de regresión lineal simple y múltiple para predecir niveles de felicidad.
+    * `Felicidad.ipynb`: Notebook con el análisis de regresión y modelos predictivos.
+    * `Felicidad.html`: Reporte en formato web.
+    * `World_Happiness_Report.csv`: Base de datos utilizada (o el nombre de tu archivo .csv).
 
-## Metodología aplicada.
-* **Regresión Lineal Simple**: Se analizó la relación directa entre el PIB (`Log GDP per capita`) y la felicidad.
-* **Regresión Lineal Múltiple**: Se integraron las 4 variables mencionadas para mejorar la capacidad predictiva del modelo.
-* **Validación**: Uso de `train_test_split` para separar datos de entrenamiento y prueba.
+## Autor.
 
-## Índice de archivos.
-1.  **[Felicidad.ipynb](./Felicidad.ipynb)**: Notebook con la limpieza de datos, análisis de correlación y entrenamiento de modelos.
-2.  **[Felicidad.html](./Felicidad.html)**: Exportación del reporte para lectura rápida.
+* **Estefania Nájera de la Rosa** - [estefania.najera@udem.edu](mailto:estefania.najera@udem.edu)
+* **Fecha**: 26 de enero del 2026
