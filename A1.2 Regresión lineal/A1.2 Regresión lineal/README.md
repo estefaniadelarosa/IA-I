@@ -1,22 +1,29 @@
-# Análisis de Datos: Salud y Bienestar Mundial.
+# Actividad 1.2: Las características que definen el nivel de felicidad.
 
-Este repositorio contiene una serie de estudios estadísticos y modelos predictivos enfocados en la salud pública y el bienestar social, analizando desde los niveles de **obesidad** en Latinoamérica hasta los factores que definen la **felicidad** a nivel global.
+## Descripción de la actividad.
+Esta actividad consiste en un reporte técnico de los niveles de felicidad de diversos países en el mundo mediante la implementación de modelos de **regresión lineal simple** con una variable independiente y de **regresión lineal múltiple** con cuatro variables independientes. Se busca identificar qué factores socioeconómicos tienen mayor peso en el bienestar global.
 
-El proyecto utiliza técnicas de aprendizaje estadístico y modelos de regresión para identificar variables determinantes en la calidad de vida, basándose en datos de instituciones académicas y reportes internacionales.
+## Base de datos.
+* **Origen**: Los datos provienen del **World Happiness Report**, un estudio que clasifica la felicidad de las naciones basándose en diversos indicadores.
+* **Fuente**: [Data sharing | The World Happiness Report](https://www.worldhappiness.report/data-sharing/)
+* **Características**: 
+    * El conjunto de datos incluye métricas anuales por país que miden el soporte social, libertad, generosidad y corrupción, entre otros.
 
-## Estructura del repositorio.
+## Variables de interés.
+* **Variable dependiente**: `Life Ladder` (Puntaje de felicidad percibida).
+* **Variables independientes principales**: 
+    1. `Log GDP per capita` (Nivel de riqueza).
+    2. `Social support` (Apoyo social).
+    3. `Healthy life expectancy at birth` (Esperanza de vida).
+    4. `Freedom to make life choices` (Libertad de decisión).
 
-* **[Actividad 1.1: Aprendizaje Estadístico-Automático](./A1.1_Aprendizaje_Estadistico/)**: Análisis exploratorio, limpieza de datos y pruebas de correlación sobre el conjunto de datos de obesidad.
-    * `Obesidad.ipynb`: Notebook principal con el código y reporte técnico.
-    * `Obesidad.html`: Reporte en formato HTML.
-    * `A1.1_Obesidad.csv`: Base de datos utilizada.
-
-* **[Actividad 1.2: Modelos de Regresión](./A1.2_Modelos_Regresion/)**: Implementación de regresión lineal simple y múltiple para predecir niveles de felicidad.
-    * `Felicidad.ipynb`: Notebook con el análisis de regresión y modelos predictivos.
-    * `Felicidad.html`: Reporte en formato web.
-    * `World_Happiness_Report.csv`: Base de datos utilizada (o el nombre de tu archivo .csv).
-
-## Autor.
-
-* **Estefania Nájera de la Rosa** - [estefania.najera@udem.edu](mailto:estefania.najera@udem.edu)
-* **Fecha**: 26 de enero del 2026
+## Índice de archivos.
+* **World_Happiness_Report.csv**: Archivo de datos fuente.
+* **Felicidad.html**: Reporte en formato web.
+* **Felicidad.ipynb**: Contiene el flujo completo de trabajo:
+    1. Importación de las librerías.
+    2. Carga de datos.
+    3. Limpieza de datos.
+    4. Análisis de regresión simple.
+    5. Análisis de regresión múltiple.
+    6. Conclusiones y referencias.
