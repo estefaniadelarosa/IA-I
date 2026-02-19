@@ -16,6 +16,8 @@ Esta actividad consiste en el desarrollo de un reporte técnico detallado y un m
     * *Nota:* Se aplicó un análisis de importancia de variables y tratamiento de multicolinealidad para asegurar la validez del modelo.
 
 ### Índice de archivos.
+* **dataset_salud_mental.csv:** Archivo de datos fuente utilizado para el entrenamiento del modelo.
+* **saludMental_spgg.html:** Reporte técnico exportado en formato web para su visualización.
 * **saludMental_spgg.ipynb:** Notebook principal que contiene el flujo completo de trabajo:
     1.  Importación de librerías (`pandas`, `scikit-learn`, `seaborn`).
     2.  Carga y exploración de datos gubernamentales.
@@ -23,5 +25,3 @@ Esta actividad consiste en el desarrollo de un reporte técnico detallado y un m
     4.  Análisis de correlación y selección de características.
     5.  Entrenamiento y comparación de modelos (**Linear Regression** vs. **Random Forest**).
     6.  Conclusiones basadas en el contexto socioeconómico de SPGG y referencias bibliográficas (OPS/OMS).
-* **saludMental_spgg.html:** Reporte técnico exportado en formato web para su visualización.
-* **dataset_salud_mental.csv:** Archivo de datos fuente utilizado para el entrenamiento del modelo.
