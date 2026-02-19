@@ -11,7 +11,7 @@ Esta actividad consiste en un reporte técnico que analiza los niveles de felici
 * **Características**:
     * El conjunto de datos evalúa métricas globales de bienestar, tales como el PIB per cápita, apoyo social, esperanza de vida, libertad, generosidad y percepción de corrupción.
 
-## Metodología Aalicada.
+## Metodología Aplicada.
 * **División de datos**: Se utilizó la técnica de `train_test_split` para entrenar los modelos y validar su precisión.
 * **Librerías utilizadas**: `pandas`, `numpy`, `matplotlib`, `seaborn` y `sklearn.linear_model`.
 * **Análisis**: Se evaluaron las líneas de tendencia y la correlación entre variables para determinar la validez de las predicciones.
