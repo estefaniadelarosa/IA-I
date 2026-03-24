@@ -1,4 +1,4 @@
-# Estatus de la Salud Mental en San Pedro Garza García.
+# # **Estatus de la Salud Mental en adultos del municipio más acaudalado de América Látina.
 
 Este repositorio contiene un reporte técnico detallado sobre el desarrollo de modelos de **Regresión Lineal Múltiple** y **Random Forest** para analizar y predecir el estado de la salud mental en adultos del municipio de San Pedro Garza García, Nuevo León. El estudio busca identificar cómo influyen diversos factores demográficos y socioeconómicos en la población en edad de trabajar del municipio más acaudalado de América Latina.
 
