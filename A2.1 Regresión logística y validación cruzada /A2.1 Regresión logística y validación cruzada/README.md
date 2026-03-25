@@ -39,17 +39,6 @@ Esta actividad consiste en el desarrollo de un reporte técnico de un modelo de 
 9. Evaluación: Accuracy, F1-score, G-mean, AUC, validación cruzada y Matriz de Confusión.
 10. Conclusiones y referencias.
 
-## Resultados principales.
-
-| Modelo | Accuracy | Validación cruzada | G-mean | AUC |
-|---|---|---|---|---|
-| By Default | 86% | 0.87 | 0.85 | 0.90 |
-| Balanced | 86% | 0.87 | 0.87 | 0.89 |
-| Manual-Balanced | 93% | 0.85 | 0.85 | 0.90 |
-| **SMOTE** | **92%** | **0.87** | **0.92** | **0.90** |
-
-El modelo con **SMOTE** fue seleccionado como el más adecuado, ya que logra el mayor G-mean (0.92) y un F1-score balanceado de 0.92 para ambas clases, al insertar datos sintéticos que equilibran el desbalance original entre clases.
-
 ## Índice de archivos.
 
 - `regresionLogistica_SM-SPGG.ipynb`: Notebook con el flujo completo de trabajo.
