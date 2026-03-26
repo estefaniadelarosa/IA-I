@@ -1,4 +1,4 @@
-## Actividad 2.X: Clasificación del Estatus de la Salud Mental en San Pedro Garza García.
+## Proyecto 2: Clasificación del Estatus de la Salud Mental en San Pedro Garza García.
 
 ### Descripción de la actividad.
 Esta actividad consiste en el desarrollo de un modelo de **clasificación supervisada** para analizar el estado de salud mental en adultos del municipio de San Pedro Garza García.  
