@@ -1,4 +1,4 @@
-# Actividad 1.3: Estatus de la Salud Mental en San Pedro Garza García.
+# Proyecto 1: Estatus de la Salud Mental en San Pedro Garza García.
 
 ### Descripción de la actividad.
 Esta actividad consiste en el desarrollo de un reporte técnico detallado y un modelo predictivo para evaluar el estado de **salud mental en adultos** del municipio de San Pedro Garza García. El estudio analiza cómo diversos factores demográficos y socioeconómicos influyen en el bienestar emocional de la población en edad de trabajar, aplicando técnicas de limpieza de datos, escalamiento con `StandardScaler` y una comparativa entre modelos de **Regresión Lineal Múltiple** y **Random Forest** para capturar relaciones complejas.
